@@ -76,10 +76,9 @@ export const removeFoodTypes =
     }
     const newRecipe = {
       name: getNewRecipeName(recipe.name),
-      ingredients: recipe.ingredients.filter((ingredient) =>
-        Boolean(
-          ingredient.foodTypes.find((foodType) => !foodTypes.includes(foodType))
-        )
+      ingredients: recipe.ingredients.filter(
+        (ingredient) =>
+          !ingredient.foodTypes.find((foodType) => foodTypes.includes(foodType))
       ),
     }
 

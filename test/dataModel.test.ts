@@ -110,16 +110,12 @@ describe('Pizza data model', () => {
 
     expect(heartBreak.ingredients.map(({ name }) => name))
       .toMatchInlineSnapshot(`
-      [
-        "mozzarella",
-        "dough",
-        "ham",
-        "beef",
-        "bacon",
-        "pepperoni",
-        "tomato",
-      ]
-    `)
+        [
+          "mozzarella",
+          "dough",
+          "tomato",
+        ]
+      `)
   })
 
   test('when user wants to check what the number of calories will be for the resulting recipe', () => {
