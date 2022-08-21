@@ -1,0 +1,20 @@
+{
+  "name": "emurgotest",
+  "version": "1.0.0",
+  "description": "Emurgo R&D : Software Engineer Test Tasks (v3.7)",
+  "type": "module",
+  "private": true,
+  "author": "jorbuedo",
+  "license": "ISC",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}
