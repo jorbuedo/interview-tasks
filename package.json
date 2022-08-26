@@ -1,7 +1,7 @@
 {
-  "name": "emurgotest",
+  "name": "interview-tasks",
   "version": "1.0.0",
-  "description": "Emurgo R&D : Software Engineer Test Tasks (v3.7)",
+  "description": "R&D : Software Engineer Test Tasks (v3.7)",
   "type": "module",
   "private": true,
   "author": "jorbuedo",
