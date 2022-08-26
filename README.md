@@ -1,4 +1,4 @@
-## Emurgo R&D : Software Engineer Test Tasks (v3.7)
+## R&D : Software Engineer Test Tasks (v3.7)
 
 The followin tasks are more or less ordered by complexity, but for different people different tasks might appear easier than others. You can solve
 them in any order and if you feel like a certain task is out of scope of your professional specialisation - just leave a comment about it.
