@@ -170,15 +170,15 @@ describe('Pizza data model', () => {
     expect(acceptableRecipes).toMatchInlineSnapshot(`
       [
         {
-          "calories": 479,
+          "calories": 401,
           "name": "custom carbonara",
         },
         {
-          "calories": 431,
+          "calories": 376,
           "name": "custom chicken",
         },
         {
-          "calories": 518,
+          "calories": 341,
           "name": "custom supreme",
         },
         {
