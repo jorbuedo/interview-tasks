@@ -6,6 +6,9 @@
   "private": true,
   "author": "jorbuedo",
   "license": "ISC",
+  "engines": {
+    "node": ">=17.0.0"
+  },
   "scripts": {
     "test": "vitest",
     "test:ui": "vitest --ui",
